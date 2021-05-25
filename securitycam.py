@@ -218,9 +218,7 @@ class Recorder:
         try:
             self.pir.when_motion = self.__recordOn
             while True:
-                if(self.pir.motion_detected):
-                    self.__recordOn
-                else:
+                if(not self.pir.motion_detected): 
                     self.__recordWindowCheck()
         except KeyboardInterrupt:
             print("Stopping recording...")
