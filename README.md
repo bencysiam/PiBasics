@@ -10,6 +10,8 @@ The code will enter a loop until you Ctrl-c to escape. When the PIR detects moti
 
 ## Security Camera Requirements
 
+You will need python3, pip and ffmpeg installed for this. This code assumes one USB microphone is connected and assumed the PIR is installed on GPIO 4.
+
 ```
 sudo apt update
 sudo apt upgrade -y
