@@ -1,4 +1,4 @@
-# Raspberry Pi Course
+# Raspberry Pi Basics
 
 Some basic python code for the Raspberry Pi's IR motion detector, camera module and also a security camera project that records video and audio when motion is detected by a connected PIR.
 
