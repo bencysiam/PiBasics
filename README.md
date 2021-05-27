@@ -34,3 +34,14 @@ Example use recording audio and video, being verbose with debug messages, a 10 s
 ```
 python3 securitycam.py -a -v -d -w 10 -f test 2>/dev/null
 ```
+
+# Bluetooth Proximity
+
+Dependencies!
+
+```
+sudo apt update
+sudo apt install bluetooth bluez libbluetooth-dev libglib2.0-dev
+sudo pip3 install pybluez
+sudo pip3 install bluepy
+```
